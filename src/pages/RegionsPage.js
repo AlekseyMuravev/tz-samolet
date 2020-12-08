@@ -52,7 +52,6 @@ function RegionsPage() {
             {regionsData && regionsData.map((item, index) => {
                 return <Region key={`${index}_${item.fullname}`} {...item} />
             })}
-
         </div>
     )
 }
